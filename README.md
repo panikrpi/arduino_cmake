@@ -10,6 +10,7 @@ Instructions
 
 To make the library and example code:
 ```
+mkdir build
 cd build 
 cmake .. 
 make 
