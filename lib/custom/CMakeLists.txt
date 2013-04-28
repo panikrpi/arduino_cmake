@@ -7,6 +7,7 @@ include_directories (${ARDUINO_LIB_SOURCE_DIR}/${ARDUINO_LIB_DIR}/default/Wire) 
 include_directories (Adafruit_MCP23017)
 include_directories (IRremote)
 include_directories (MIDI)
+include_directories (OneWire)
 include_directories (Ping)
 
 # Create a library called "custom" which includes multiple source files.
@@ -17,5 +18,6 @@ add_library (
 	Adafruit_MCP23017/Adafruit_MCP23017.cpp 
 	IRremote/IRremote.cpp 
 	MIDI/MIDI.cpp 
+	OneWire/OneWire.cpp 
 	Ping/Ping.cpp 
 )

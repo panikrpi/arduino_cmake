@@ -29,5 +29,6 @@ include_directories (${ARDUINO_LIB_SOURCE_DIR}/${ARDUINO_LIB_DIR}/default/Wire/u
 
 # Recurse further into the "project" subdirectories.
 add_subdirectory (blinky)
-add_subdirectory (keyboard)
 add_subdirectory (combined)
+add_subdirectory (keyboard)
+add_subdirectory (tinybasic)
